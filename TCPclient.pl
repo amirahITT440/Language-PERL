@@ -4,7 +4,7 @@ $| = 1;
 
 my $socket = new IO::Socket::INET(
 	PeerHost => '192.168.1.0',
-	PeerPort => '7890',
+	PeerPort => '50000',
 	Proto => 'tcp',
 );
 die "Cannot connect to the server $!\n" unless $socket;
